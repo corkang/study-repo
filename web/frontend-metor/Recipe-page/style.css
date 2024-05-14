@@ -1,0 +1,104 @@
+
+body {
+  background-color: hsl(30, 54%, 90%); /* eggshell */
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    background-color: hsl(0, 0%, 100%);
+    margin: 0;
+  }
+
+  #main-card-inner {
+    padding: 4vmin;
+  }
+  
+  img.square {
+    border-radius: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #main-card {
+    background-color: hsl(0, 0%, 100%); /* white */
+    margin: 5vmin auto;
+    width: 40vmax;
+    padding: 4vmin;
+  }
+}
+
+#prep-time {
+  background-color: hsl(330, 100%, 98%); /* Rose white */
+  padding: 10px 20px;
+}
+
+.square {
+  border-radius: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1{
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+  color: hsl(24, 5%, 18%);
+}
+
+h2 {
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+  color:hsl(14, 45%, 36%); /* nutmeg */
+}
+
+h3 {
+  color: hsl(332, 51%, 32%); /* Dark Raspberry */
+}
+
+li::marker {
+  color:hsl(14, 45%, 36%); /* nutmeg */
+}
+
+b, em, td{
+  font-weight: 600;
+}
+
+th {
+  font-weight: 400;
+}
+
+td {
+  color: hsl(14, 45%, 36%); /* nutmeg */
+}
+
+li:not(last-child) {
+  margin-bottom: 16px;
+}
+
+hr {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+
+td, th {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding: 15px;
+}
+
+.no-border {
+  border-bottom: 0;
+}
+
